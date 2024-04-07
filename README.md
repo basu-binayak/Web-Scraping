@@ -15,4 +15,4 @@ if response.status_code == 200:
 else:
     print('Error:', response.status_code)
 ```
-This folder, **1_requests** contains projects using just the **requests** module in Python.
+This folder, **[1_requests](https://github.com/basu-binayak/Web-Scraping/tree/6db0564674245366ff1f2ee81ae9d1e15ef313bb/1_requests)** contains projects using just the **requests** module in Python.
