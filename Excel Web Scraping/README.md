@@ -199,5 +199,3 @@ Source = Web.BrowserContents("https://www.timeanddate.com/weather/india/kolkata/
 in #"Extracted Text Between Delimiters"
 ```
 - Purpose: Returns the final table after all transformations have been applied.
-
-This markdown breaks down each step, explaining the transformations applied to the data in a structured manner.
