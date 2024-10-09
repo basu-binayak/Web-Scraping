@@ -15,7 +15,7 @@ I am going to scrape a wikipedia page (https://en.wikipedia.org/wiki/Indian_Prem
 > - Index: 1 specifies the first table on the webpage. If the data you want is in a different table, adjust the index (e.g., 2, 3).
 
 - In our example, the table that we want is the number 10 in the webpage. How do I know this? You can watch the video below!
-
+[![Watch the video](https://github.com/basu-binayak/Web-Scraping/blob/a9786d8b49a66a19bb71efd90fa5d8594ef7e8b9/Google%20Sheets%20Web%20Scraping/images/thumbnail.png)](https://github.com/basu-binayak/Web-Scraping/blob/a9786d8b49a66a19bb71efd90fa5d8594ef7e8b9/Google%20Sheets%20Web%20Scraping/videos/Table_number.mp4)
 
 
 **Step 3: Wait for Data to Load**
