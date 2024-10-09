@@ -14,6 +14,10 @@ I am going to scrape a wikipedia page (https://en.wikipedia.org/wiki/Indian_Prem
 > - Query Type: "table" tells Google Sheets that you want to extract data from a table on the webpage.
 > - Index: 1 specifies the first table on the webpage. If the data you want is in a different table, adjust the index (e.g., 2, 3).
 
+- In our example, the table that we want is the number 10 in the webpage. How do I know this? You can watch the video below!
+<iframe width="560" height="315" src="https://github.com/basu-binayak/Web-Scraping/blob/ff7c6a3628b5302bb175aa165b137bd9bff9fd03/Google%20Sheets%20Web%20Scraping/Table_number.flv" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 **Step 3: Wait for Data to Load**
 - After you enter the formula, Google Sheets will take a few moments to fetch and display the data from the webpage.
 
