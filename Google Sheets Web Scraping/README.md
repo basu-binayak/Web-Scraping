@@ -56,5 +56,6 @@ You can share the sheet with others by using the Share button in the top-right c
 Link : https://docs.google.com/spreadsheets/d/14tpzdrGOtthlKIS_OveITryRBgp27dfDSPz4ihtd_Us/edit?usp=sharing
 
 > Notes:
+
 - Limitations: Google Sheets can have limitations on the size of the data it can scrape at once. If the dataset is large, it might not import all data or could run into issues.
 - Error Handling: If Google Sheets encounters any issue with the website (e.g., the table is not recognized), it will show an error. Try adjusting the table index in the IMPORTHTML function, or inspect the website structure using the browser's developer tools to find the correct table.
