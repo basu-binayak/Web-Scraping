@@ -3,6 +3,48 @@
 ## Link to the websites that are scraped using Excel
 1. <a href = "https://www.timeanddate.com/weather/india/kolkata/ext" target="_blank">Kolkata Weather Forecast</a>
 
+## Step by Step Guide to scrape using Excel
+
+**Step 1: Open Excel**
+- Launch Excel and open a new workbook.
+
+**Step 2: Open the "Get & Transform Data" Tool**
+- Go to the `Data` tab on the ribbon.
+- In the `Get & Transform Data` group, click `Get Data`.
+
+**Step 3: Select Data from Web**
+- From the dropdown, choose From Other Sources and then select From Web.
+
+**Step 4: Enter the URL**
+- In the `From Web` window, enter the URL: https://www.timeanddate.com/weather/india/kolkata/ext.
+- Click OK.
+
+**Step 5: Select the Table to Import**
+- Excel will try to connect to the webpage and fetch the available data. You’ll see a list of detected tables.
+- Scroll through the list and find the table that contains the weather forecast data (usually listed as Table 0 or something similar).
+- Select the table and click Load.
+
+**Step 6: Review the Imported Data**
+- Excel will load the table data into your worksheet.
+- Review the imported data to ensure it matches the weather information from the webpage.
+
+**Step 7: Clean and Format the Data**
+- Once the data is loaded, you might want to clean it up, as raw web data can include unnecessary text or formatting issues.
+- Use Excel’s text functions, such as Text to Columns, Find & Replace, or formulas like LEFT, RIGHT, or MID, to extract and format the data as needed.
+
+**Step 8: Refresh the Data**
+- To refresh the data in the future, go back to the Data tab and click Refresh All. Excel will pull the latest data from the website.
+
+**Step 9: Save Your Workbook**
+- Save your Excel workbook, and you can refresh it anytime to update the weather data directly from the website.
+
+**Additional Steps (Optional):**
+- Transform Data: If you need more complex data manipulation (e.g., splitting temperature ranges, converting units, etc.), click on `Transform Data` in the Power Query Editor before loading the data. This allows you to add custom steps like splitting columns, replacing text, or changing data types.
+
+By following these steps, you'll be able to scrape and update weather data from the website directly into Excel.
+
+***I will use Power Query to transform the data before loading it ino Excel. The steps in the query editor used to transform the data is listed in the next section***
+
 ## Power Query Steps - Using M language 
 
 ```m
