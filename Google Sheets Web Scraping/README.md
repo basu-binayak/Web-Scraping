@@ -9,16 +9,16 @@ I am going to scrape a wikipedia page (https://en.wikipedia.org/wiki/Indian_Prem
 - Create a new blank spreadsheet.
 
 **Step 2: Use the IMPORTHTML Function**
-- In the first cell where you want to import the data (e.g., A1), type the following ```formula:
-=IMPORTHTML("https://en.wikipedia.org/wiki/Indian_Premier_League", "table", 1)
-```
-URL: "https://en.wikipedia.org/wiki/Indian_Premier_League" is the webpage containing the data you want to scrape.
-Query Type: "table" tells Google Sheets that you want to extract data from a table on the webpage.
-Index: 1 specifies the first table on the webpage. If the data you want is in a different table, adjust the index (e.g., 2, 3).
-Step 3: Wait for Data to Load
-After you enter the formula, Google Sheets will take a few moments to fetch and display the data from the webpage.
-Step 4: Clean Up the Data (Optional)
-The data will likely include some unnecessary rows or columns. Use standard Google Sheets features to clean and format the data:
+- In the first cell where you want to import the data (e.g., A1), type the following:  `=IMPORTHTML("https://www.timeanddate.com/weather/india/kolkata/ext", "table", 1)`
+> - URL: "https://en.wikipedia.org/wiki/Indian_Premier_League" is the webpage containing the data you want to scrape.
+> - Query Type: "table" tells Google Sheets that you want to extract data from a table on the webpage.
+> - Index: 1 specifies the first table on the webpage. If the data you want is in a different table, adjust the index (e.g., 2, 3).
+
+**Step 3: Wait for Data to Load**
+- After you enter the formula, Google Sheets will take a few moments to fetch and display the data from the webpage.
+
+**Step 4: Clean Up the Data (Optional)**
+- The data will likely include some unnecessary rows or columns. Use standard Google Sheets features to clean and format the data:
 Delete Unnecessary Rows/Columns: Highlight and delete rows/columns that contain unwanted data.
 Split Data: Use Data > Split Text to Columns to split any combined data (e.g., date and time) into separate columns.
 Step 5: Use ARRAYFORMULA (Optional for Dynamic Formatting)
