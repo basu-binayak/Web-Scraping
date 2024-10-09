@@ -1,0 +1,16 @@
+﻿Date,Day,Temperature High (Celicius),Temperature Low (Celicius),Weather,Feels Like(Celcius),Wind Speed(km/h),Humidity(%),Chance of Precipitation(%),Amout of Precipitation(mm),UV (Sun),UV Category,Sunrise,Sunset
+09-10-2024,Wed,34,26,Isolated tstorms. Afternoon clouds.,40 ,6 ,0.7,0.91,17.5,3,Moderate,05:30:00,17:16:00
+10-10-2024,Thu,33,26,A few tstorms. Afternoon clouds.,39 ,6 ,0.72,0.58,3.8,3,Moderate,05:31:00,17:15:00
+11-10-2024,Fri,33,27,Isolated tstorms. Partly cloudy.,39 ,7 ,0.7,0.51,2.7,3,Moderate,05:31:00,17:14:00
+12-10-2024,Sat,34,26,A few tstorms. Partly cloudy.,40 ,4 ,0.67,0.65,8.2,3,Moderate,05:31:00,17:13:00
+13-10-2024,Sun,32,26,Scattered clouds.,37 ,8 ,0.68,0.38,1,5,Moderate,05:32:00,17:12:00
+14-10-2024,Mon,34,26,Sunny.,38 ,8 ,0.59,0.05,0,7,High,05:32:00,17:11:00
+15-10-2024,Tue,34,26,Afternoon clouds.,40 ,4 ,0.59,0.05,0,3,Moderate,05:33:00,17:11:00
+16-10-2024,Wed,33,26,Showers late. Afternoon clouds.,38 ,8 ,0.59,0.45,0.3,3,Moderate,05:33:00,17:10:00
+17-10-2024,Thu,32,25,Passing showers. Afternoon clouds.,36 ,6 ,0.6,0.56,2,3,Moderate,05:33:00,17:09:00
+18-10-2024,Fri,31,25,Rain showers. Mostly cloudy.,35 ,6 ,0.67,0.74,11.2,3,Moderate,05:34:00,17:08:00
+19-10-2024,Sat,31,25,Thunderstorms. Cloudy.,38 ,11 ,0.81,0.99,17.6,3,Moderate,05:34:00,17:07:00
+20-10-2024,Sun,31,25,Thunderstorms. Broken clouds.,38 ,11 ,0.78,0.94,9.3,3,Moderate,05:35:00,17:07:00
+21-10-2024,Mon,32,26,Cloudy.,35 ,11 ,0.62,0.06,0,3,Moderate,05:35:00,17:06:00
+22-10-2024,Tue,32,26,Broken clouds.,36 ,13 ,0.6,0.06,0,5,Moderate,05:36:00,17:05:00
+23-10-2024,Wed,33,27,Morning clouds.,36 ,10 ,0.55,0.06,0,3,Moderate,05:36:00,17:04:00
