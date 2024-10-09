@@ -25,13 +25,13 @@ I am going to scrape a wikipedia page (https://en.wikipedia.org/wiki/Indian_Prem
 Hover your mouse over the elements in the HTML code, and the corresponding elements will be highlighted on the webpage.
 
 >> **Step 3: Locate the Tables**
->>> - Use the search functionality in Developer Tools. Press Ctrl + F (Windows) or Cmd + F (Mac) and type <table> to search for all <table> elements.
->>> - The search will highlight all the <table> tags. Use the up and down arrows to navigate between them.
+>>> - Use the search functionality in Developer Tools. Press Ctrl + F (Windows) or Cmd + F (Mac) and type \<table\> to search for all \<table\> elements.
+>>> - The search will highlight all the \<table\> tags. Use the up and down arrows to navigate between them.
 
 >> **Step 4: Identify the Correct Table**
->>> - As you navigate through the <table> elements, the corresponding table on the webpage will be highlighted.
+>>> - As you navigate through the \<table\> elements, the corresponding table on the webpage will be highlighted.
 >>> - Check the content of each highlighted table to find the one you're looking for. If it’s the first table, it will be table 1; if it’s the second, it will be table 2, and so on.
->>> - Count the <table> tags from the top of the HTML document to determine the index number of the table you need.
+>>> - Count the \<table\> tags from the top of the HTML document to determine the index number of the table you need.
 
 
 **Step 3: Wait for Data to Load**
@@ -39,16 +39,22 @@ Hover your mouse over the elements in the HTML code, and the corresponding eleme
 
 **Step 4: Clean Up the Data (Optional)**
 - The data will likely include some unnecessary rows or columns. Use standard Google Sheets features to clean and format the data:
-Delete Unnecessary Rows/Columns: Highlight and delete rows/columns that contain unwanted data.
-Split Data: Use Data > Split Text to Columns to split any combined data (e.g., date and time) into separate columns.
-Step 5: Use ARRAYFORMULA (Optional for Dynamic Formatting)
-If you need to apply formulas to a range of cells dynamically, you can use the ARRAYFORMULA function to manipulate data in bulk.
-Step 6: Refresh the Data Automatically
-Google Sheets will automatically refresh the data periodically. However, if you want to refresh the data manually, you can re-enter the IMPORTHTML function or simply reload the spreadsheet.
-Step 7: Save and Share
-Once the data is properly scraped and formatted, save your Google Sheet.
+- Delete Unnecessary Rows/Columns: Highlight and delete rows/columns that contain unwanted data.
+- Split Data: Use Data > Split Text to Columns to split any combined data (e.g., date and time) into separate columns.
+
+**Step 5: Use ARRAYFORMULA (Optional for Dynamic Formatting)**
+- If you need to apply formulas to a range of cells dynamically, you can use the ARRAYFORMULA function to manipulate data in bulk.
+
+**Step 6: Refresh the Data Automatically**
+- Google Sheets will automatically refresh the data periodically. However, if you want to refresh the data manually, you can re-enter the IMPORTHTML function or simply reload the spreadsheet.
+
+**Step 7: Save and Share**
+- Once the data is properly scraped and formatted, save your Google Sheet.
 You can share the sheet with others by using the Share button in the top-right corner and specifying access permissions.
-Notes:
-Limitations: Google Sheets can have limitations on the size of the data it can scrape at once. If the dataset is large, it might not import all data or could run into issues.
-Error Handling: If Google Sheets encounters any issue with the website (e.g., the table is not recognized), it will show an error. Try adjusting the table index in the IMPORTHTML function, or inspect the website structure using the browser's developer tools to find the correct table.
-By following these steps, you can easily scrape and update weather data from the website into Google Sheets.
+
+## Sharing the data scraped 
+Link : 
+
+> Notes:
+- Limitations: Google Sheets can have limitations on the size of the data it can scrape at once. If the dataset is large, it might not import all data or could run into issues.
+- Error Handling: If Google Sheets encounters any issue with the website (e.g., the table is not recognized), it will show an error. Try adjusting the table index in the IMPORTHTML function, or inspect the website structure using the browser's developer tools to find the correct table.
