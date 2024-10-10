@@ -26,7 +26,7 @@ Link for Python Guide : ***https://www.exchangerate-api.com/docs/python-currency
 > Note: Here we will use the `Network` tab of the developers tab to get to the API. 
 
 ### Identify the API Call made by the Service 
-![Understanding the API Call](https://example.com/weather-icon.png)
+![Understanding the API Call](https://github.com/basu-binayak/Web-Scraping/blob/f3fc9c4295d4c3117863a59c4918031e549d80b0/API/Images/bbc_weather_app.png)
 
 To identify the API call made by a website like BBC Weather when you search for a location (such as "Singapore"), you can follow these steps using the Developer Tools in your browser (Chrome or Firefox):
 
