@@ -61,6 +61,11 @@ To identify the API call made by a website like BBC Weather when you search for 
 To understand how to find the suitable GET request for this project, refer to the video below:
 [![Watch the video](https://github.com/basu-binayak/Web-Scraping/blob/a61f7ec7b2046aff6488eede5d623829138120ca/API/Images/BBC_Weather_API_thumbnail.png)](https://github.com/basu-binayak/Web-Scraping/blob/a61f7ec7b2046aff6488eede5d623829138120ca/API/Videos/BBC_Weather_API.flv)
 
+**However**, we are still not there! If you view the GET request url you will see that it uses the `id` for that location. However, we have searched by location and not by id. The question arises: **How to get the id for the location?**
+> A thorough inspection reveals that while we type the location in the search button, an API call is triggered and using that endpoint we can get to the id we wanted! 
+
+
+
 
 
 
