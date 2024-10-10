@@ -57,7 +57,9 @@ To identify the API call made by a website like BBC Weather when you search for 
 **Copy the API URL**
 - Once you find the correct request, you can copy the API URL and use it in your own script or tool to fetch the weather data.
 
-
+### NOTE
+To understand how to find the suitable GET request for this project, refer to the video below:
+[![Watch the video](https://github.com/basu-binayak/Web-Scraping/blob/a9786d8b49a66a19bb71efd90fa5d8594ef7e8b9/Google%20Sheets%20Web%20Scraping/images/thumbnail.png)](https://github.com/basu-binayak/Web-Scraping/blob/a9786d8b49a66a19bb71efd90fa5d8594ef7e8b9/Google%20Sheets%20Web%20Scraping/videos/Table_number.mp4)
 
 
 
