@@ -19,7 +19,7 @@
 
 Link for Python Guide : ***https://www.exchangerate-api.com/docs/python-currency-api***
 
-- However, you can follow the <a href="https://github.com/basu-binayak/Web-Scraping/blob/6e968f6b81e705df04da9b60ae5c172eabb9f135/API/Exchange_Rate_API.ipynb">Exchange_Rate_API.ipynb</a> to get a better undertanding !
+- However, you can follow the <a href="">Exchange_Rate_API.ipynb</a> to get a better undertanding !
 
 
 
