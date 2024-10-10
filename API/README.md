@@ -59,7 +59,7 @@ To identify the API call made by a website like BBC Weather when you search for 
 
 ### NOTE
 To understand how to find the suitable GET request for this project, refer to the video below:
-[![Watch the video](https://github.com/basu-binayak/Web-Scraping/blob/a9786d8b49a66a19bb71efd90fa5d8594ef7e8b9/Google%20Sheets%20Web%20Scraping/images/thumbnail.png)](https://github.com/basu-binayak/Web-Scraping/blob/a9786d8b49a66a19bb71efd90fa5d8594ef7e8b9/Google%20Sheets%20Web%20Scraping/videos/Table_number.mp4)
+[![Watch the video](https://github.com/basu-binayak/Web-Scraping/blob/a61f7ec7b2046aff6488eede5d623829138120ca/API/Images/BBC_Weather_API_thumbnail.png)](https://github.com/basu-binayak/Web-Scraping/blob/a61f7ec7b2046aff6488eede5d623829138120ca/API/Videos/BBC_Weather_API.flv)
 
 
 
