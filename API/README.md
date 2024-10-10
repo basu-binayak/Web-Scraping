@@ -22,6 +22,42 @@ Link for Python Guide : ***https://www.exchangerate-api.com/docs/python-currency
 - However, you can follow the <a href="https://github.com/basu-binayak/Web-Scraping/blob/b0e46143bdef342d6cc0193ad03e35f3077063f6/API/Exchange_Rate_API.ipynb">Exchange_Rate_API.ipynb</a> to get a better undertanding !
 
 
+## BBC Weather Location Service 
+> Note: Here we will use the `Network` tab of the developers tab to get to the API. 
+
+### Identify the API Call made by the Service 
+![Understanding the API Call](https://example.com/weather-icon.png)
+
+To identify the API call made by a website like BBC Weather when you search for a location (such as "Singapore"), you can follow these steps using the Developer Tools in your browser (Chrome or Firefox):
+
+#### Steps to Identify the API in the Network Tab
+**Open the Developer Tools**
+- Right-click anywhere on the BBC Weather page and select Inspect or press Ctrl + Shift + I (Windows/Linux) or Cmd + Option + I (Mac).
+- Navigate to the Network tab.
+
+**Clear any existing logs**
+- To avoid confusion with previous network requests, click the clear button (often represented by a circle with a line or an "X" icon) to clear existing logs.
+
+**Search for, say , 'Singapore' on the BBC Weather site**
+- In the search bar on the BBC Weather page, type "Singapore" and hit Enter.
+- The page will reload with weather data for Singapore, and you’ll notice several network requests being made.
+
+**Filter to API requests**
+- In the Network tab, look for the XHR (XMLHttpRequest) filter or select "Fetch/XHR". This filter will show requests made by the site that return data in formats like JSON or XML (typically used in API calls).
+- You can also use the All tab to view all requests, but focusing on XHR narrows it down to API-related calls.
+
+**Find the API Request**
+- Look for a request that seems to fetch data related to your search. The URL often contains keywords like weather, forecast, location, or Singapore or some code 
+- The Method column will typically show GET or POST for API requests. The request might look something like: https://api.bbc.com/weather/.../singapore.
+
+**Inspect the Request**
+- Click on the request that looks relevant. In the Headers tab, you can see the full URL of the API request.
+- In the Response tab, you will see the data that the API returns (usually in JSON format). This is the actual weather data for Singapore.
+
+**Copy the API URL**
+- Once you find the correct request, you can copy the API URL and use it in your own script or tool to fetch the weather data.
+
+
 
 
 
